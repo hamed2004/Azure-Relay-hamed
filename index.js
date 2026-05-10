@@ -1,7 +1,7 @@
 const http = require('http');
 const httpProxy = require('http-proxy');
 
-const TARGET_URL = 'https://ns.hamed2004.ir:2096';
+const TARGET_URL = 'https://ns.hamed2004.ir:8096';
 
 const keepAliveAgent = new http.Agent({
   keepAlive: true,
